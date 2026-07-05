@@ -27,19 +27,16 @@
         
         .socials { display: flex; justify-content: center; gap: 30px; margin-top: 20px; padding-top: 20px; border-top: 1px solid #eee; }
         .socials a { font-size: 30px; text-decoration: none; }
+        .fb { color: #1877f2; } .ig { color: #e1306c; } 
         
-        .fb { color: #1877f2; } 
-        .ig { color: #e1306c; } 
-        
-        /* Muonekano wa rangi za Google 20774.jpg */
-        .google-logo {
-            display: inline-block;
-            font-weight: bold;
-            background: conic-gradient(from 0deg, #4285f4 0deg 90deg, #34a853 90deg 180deg, #fbbc05 180deg 270deg, #ea4335 270deg 360deg);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-size: 32px;
-        }
+        .google-logo { display: inline-block; font-weight: bold; background: conic-gradient(from 0deg, #4285f4 0deg 90deg, #34a853 90deg 180deg, #fbbc05 180deg 270deg, #ea4335 270deg 360deg); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 32px; }
+
+        /* Admin Section */
+        .admin-section { margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; text-align: left; }
+        .admin-title { font-size: 13px; color: #888; margin-bottom: 15px; font-weight: bold; text-align: center; }
+        .admin-profile { display: flex; align-items: center; margin-bottom: 10px; }
+        .admin-profile img { width: 45px; height: 45px; border-radius: 50%; object-fit: cover; margin-right: 12px; border: 2px solid #ff9800; }
+        .admin-name { font-size: 14px; font-weight: 600; color: #333; }
 
         .footer { font-size: 12px; color: #888; margin-top: 20px; }
     </style>
@@ -71,9 +68,20 @@
     <div class="socials">
         <a href="https://www.facebook.com/share/1EegMiHQ8d/" class="fb"><i class="fab fa-facebook"></i></a>
         <a href="https://chat.whatsapp.com/JjcMJrYTQwN1f6CdJ7VLVZ" class="ig"><i class="fab fa-instagram"></i></a>
-        
-        <!-- Google na rangi za 20774.jpg -->
         <a href="https://chat.whatsapp.com/JjcMJrYTQwN1f6CdJ7VLVZ" class="google-logo"><i class="fab fa-google"></i></a>
+    </div>
+
+    <!-- Admin Section: Hapa ndipo picha zako zinapokaa -->
+    <div class="admin-section">
+        <p class="admin-title">WASIMAMIZI WA GROUP</p>
+        <div class="admin-profile">
+            <img src="20773.jpg" alt="Admin 1">
+            <span class="admin-name">Admin 1</span>
+        </div>
+        <div class="admin-profile">
+            <img src="17743.jpg" alt="Admin 2">
+            <span class="admin-name">Admin 2</span>
+        </div>
     </div>
 
     <div class="footer">
@@ -83,5 +91,3 @@
 
 </body>
 </html>
-
-
