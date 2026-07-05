@@ -19,7 +19,6 @@
         .sectors p { margin: 10px 0; display: flex; align-items: center; }
         .sectors i { color: #ff9800; margin-right: 15px; }
 
-        /* Mstari mpya */
         .extra-info { text-align: left; font-weight: 600; color: #333; margin-bottom: 25px; display: flex; align-items: center; }
         .extra-info i { color: #ff9800; margin-right: 15px; }
 
@@ -27,9 +26,21 @@
         .btn:hover { background-color: #128c7e; }
         
         .socials { display: flex; justify-content: center; gap: 30px; margin-top: 20px; padding-top: 20px; border-top: 1px solid #eee; }
-        .socials a { font-size: 32px; }
-        .fb { color: #1877f2; } .ig { color: #e1306c; } .go { color: #db4437; }
+        .socials a { font-size: 30px; text-decoration: none; }
         
+        .fb { color: #1877f2; } 
+        .ig { color: #e1306c; } 
+        
+        /* Muonekano wa rangi za Google 20774.jpg */
+        .google-logo {
+            display: inline-block;
+            font-weight: bold;
+            background: conic-gradient(from 0deg, #4285f4 0deg 90deg, #34a853 90deg 180deg, #fbbc05 180deg 270deg, #ea4335 270deg 360deg);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 32px;
+        }
+
         .footer { font-size: 12px; color: #888; margin-top: 20px; }
     </style>
 </head>
@@ -49,7 +60,6 @@
         <p><i class="fas fa-check-circle"></i> Supermarket</p>
     </div>
     
-    <!-- Mstari mpya na icon nzuri -->
     <div class="extra-info">
         <p><i class="fas fa-map-marker-alt"></i> Na maeneo mengine mengi...</p>
     </div>
@@ -61,7 +71,9 @@
     <div class="socials">
         <a href="https://www.facebook.com/share/1EegMiHQ8d/" class="fb"><i class="fab fa-facebook"></i></a>
         <a href="https://chat.whatsapp.com/JjcMJrYTQwN1f6CdJ7VLVZ" class="ig"><i class="fab fa-instagram"></i></a>
-        <a href="https://chat.whatsapp.com/JjcMJrYTQwN1f6CdJ7VLVZ" class="go"><i class="fab fa-whatsapp"></i></a>
+        
+        <!-- Google na rangi za 20774.jpg -->
+        <a href="https://chat.whatsapp.com/JjcMJrYTQwN1f6CdJ7VLVZ" class="google-logo"><i class="fab fa-google"></i></a>
     </div>
 
     <div class="footer">
@@ -71,4 +83,5 @@
 
 </body>
 </html>
+
 
